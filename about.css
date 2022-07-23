@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+} 
+
+body{
+    background: whitesmoke;
+}
+
+ul{
+    overflow: hidden; 
+    list-style-type: none; 
+    background: rgb(50, 104, 98);
+} 
+
+li{
+    float: right; 
+} 
+
+li a{
+    font-family: sans-serif;
+    display: flex; 
+    display: block; 
+    padding: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+} 
+
+li a:hover{
+    border-bottom:7px solid black;  
+    transition: 1s; 
+}  
+
+.containera{
+    float: left;
+    width: 50%; 
+    padding-bottom: 9vh;  
+    /**background-color: lawngreen;**/
+} 
+
+p{
+    margin-left: 40px; 
+    font-weight: bolder;
+    font-size: 5vh; 
+    margin-top: 20%;
+} 
+.box{ 
+    /**background-color: khaki;**/
+    float: left;
+    width: 20%;    
+    padding-right: 55vh;
+} 
+
+img{
+    width: 100%; 
+    margin-top: 70%;  
+    margin-left: 58%; 
+    border-top-left-radius: 0vmin;
+} 
